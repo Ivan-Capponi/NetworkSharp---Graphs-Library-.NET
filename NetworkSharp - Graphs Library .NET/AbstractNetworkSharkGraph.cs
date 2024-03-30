@@ -38,6 +38,7 @@
         // Methods to retrieve incoming and outgoing edges for a specific vertex.
         public abstract IEnumerable<TEdge> GetOutgoingEdges(TVertex vertex);
         public abstract IEnumerable<TEdge> GetIncomingEdges(TVertex vertex);
+        
         // Retrieves the source and destination vertices of an edge.
         public abstract (TVertex source, TVertex? destination) GetEndpoints(TEdge edge);
 

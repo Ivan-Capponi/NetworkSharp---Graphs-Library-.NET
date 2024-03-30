@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkSharp - Graphs Library .NET", "NetworkSharp - Graphs Library .NET\NetworkSharp - Graphs Library .NET.csproj", "{56B75851-FF93-45B1-810C-77B08E5EF339}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkSharp - Graphs Library .NET", "NetworkSharp - Graphs Library .NET\NetworkSharp - Graphs Library .NET.csproj", "{56B75851-FF93-45B1-810C-77B08E5EF339}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit Tests", "Unit Tests\Unit Tests.csproj", "{4AAE2292-B66E-4E62-AB0B-DF2CD69A852A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{56B75851-FF93-45B1-810C-77B08E5EF339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56B75851-FF93-45B1-810C-77B08E5EF339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56B75851-FF93-45B1-810C-77B08E5EF339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAE2292-B66E-4E62-AB0B-DF2CD69A852A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAE2292-B66E-4E62-AB0B-DF2CD69A852A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAE2292-B66E-4E62-AB0B-DF2CD69A852A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAE2292-B66E-4E62-AB0B-DF2CD69A852A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
